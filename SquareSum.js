@@ -7,11 +7,11 @@
 
 function squareSum(numbers){
   
-    const dass=numbers.reduce((acc,curr)=>{
+    const sqrsum=numbers.reduce((acc,curr)=>{
         return curr**2+acc;
       
     },0)
-    return dass
+    return sqrsum
   }
   console.log(squareSum([1, 2, 2]))
   
